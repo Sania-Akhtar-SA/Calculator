@@ -39,9 +39,6 @@
 .button:last-child{
     background-color: gray;
 }
-.cancel{
-    background-color:lightseagreen ;
-}
 .button:hover{
     background-color: rgb(239, 233, 233);
     color: black;
