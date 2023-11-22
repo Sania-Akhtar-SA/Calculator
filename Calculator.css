@@ -11,8 +11,8 @@
     align-items: center;
 }
 .cal{
-    background:rgb(194, 187, 187);
-    padding: 200px; 
+    padding: 0px; 
+    box-shadow: 15px 10px 16px rgb(99, 91, 91);
 }
 .display1{
     width: 150px;
@@ -22,9 +22,9 @@
     outline: 0;
     font-size: medium;
 }
-.button-row{
+/*.button-row{
     box-shadow: 5px 10px 18px red;
-}
+}*/
 .button{
     background-color: black;
     border: 0;
@@ -33,6 +33,7 @@
     float: left;
     height: 50px;
     color: white;
+    cursor: pointer;
     box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1);
 }
 .button:last-child{
@@ -40,4 +41,11 @@
 }
 .cancel{
     background-color:lightseagreen ;
+}
+.button:hover{
+    background-color: rgb(239, 233, 233);
+    color: black;
+}
+.button:active{
+    transform:scale(0.95) ;
 }
